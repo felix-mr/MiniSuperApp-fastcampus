@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86F05F2F27CE081A00928DAF /* SuperPayDashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F05F2B27CE081A00928DAF /* SuperPayDashboardRouter.swift */; };
+		86F05F3027CE081A00928DAF /* SuperPayDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F05F2C27CE081A00928DAF /* SuperPayDashboardViewController.swift */; };
+		86F05F3127CE081A00928DAF /* SuperPayDashboardBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F05F2D27CE081A00928DAF /* SuperPayDashboardBuilder.swift */; };
+		86F05F3227CE081A00928DAF /* SuperPayDashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F05F2E27CE081A00928DAF /* SuperPayDashboardInteractor.swift */; };
+		86F05F3527CE1AB600928DAF /* CombineExt in Frameworks */ = {isa = PBXBuildFile; productRef = 86F05F3427CE1AB600928DAF /* CombineExt */; };
+		86F05F3727CE1AD300928DAF /* Combine+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F05F3627CE1AD300928DAF /* Combine+Utils.swift */; };
+		86F05F3927CE201C00928DAF /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F05F3827CE201C00928DAF /* NumberFormatter.swift */; };
+		86F05F3F27CE22F300928DAF /* CardOnFileDashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F05F3B27CE22F300928DAF /* CardOnFileDashboardRouter.swift */; };
+		86F05F4027CE22F300928DAF /* CardOnFileDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F05F3C27CE22F300928DAF /* CardOnFileDashboardViewController.swift */; };
+		86F05F4127CE22F300928DAF /* CardOnFileDashboardBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F05F3D27CE22F300928DAF /* CardOnFileDashboardBuilder.swift */; };
+		86F05F4227CE22F300928DAF /* CardOnFileDashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F05F3E27CE22F300928DAF /* CardOnFileDashboardInteractor.swift */; };
+		A0674813785352CBF60E1C46 /* Pods_MiniSuperApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF3625CA73DB1DB3DBDDF83 /* Pods_MiniSuperApp.framework */; };
 		F57EBE542738468700FE9319 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57EBE512738468700FE9319 /* UIImage+Utils.swift */; };
 		F57EBE552738468700FE9319 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57EBE522738468700FE9319 /* Array+Utils.swift */; };
 		F57EBE562738468700FE9319 /* UITableView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57EBE532738468700FE9319 /* UITableView+Utils.swift */; };
@@ -47,6 +59,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58E1106358CEBB29D0EF266E /* Pods-MiniSuperApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniSuperApp.release.xcconfig"; path = "Target Support Files/Pods-MiniSuperApp/Pods-MiniSuperApp.release.xcconfig"; sourceTree = "<group>"; };
+		86F05F2B27CE081A00928DAF /* SuperPayDashboardRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPayDashboardRouter.swift; sourceTree = "<group>"; };
+		86F05F2C27CE081A00928DAF /* SuperPayDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPayDashboardViewController.swift; sourceTree = "<group>"; };
+		86F05F2D27CE081A00928DAF /* SuperPayDashboardBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPayDashboardBuilder.swift; sourceTree = "<group>"; };
+		86F05F2E27CE081A00928DAF /* SuperPayDashboardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPayDashboardInteractor.swift; sourceTree = "<group>"; };
+		86F05F3627CE1AD300928DAF /* Combine+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combine+Utils.swift"; sourceTree = "<group>"; };
+		86F05F3827CE201C00928DAF /* NumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
+		86F05F3B27CE22F300928DAF /* CardOnFileDashboardRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOnFileDashboardRouter.swift; sourceTree = "<group>"; };
+		86F05F3C27CE22F300928DAF /* CardOnFileDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOnFileDashboardViewController.swift; sourceTree = "<group>"; };
+		86F05F3D27CE22F300928DAF /* CardOnFileDashboardBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOnFileDashboardBuilder.swift; sourceTree = "<group>"; };
+		86F05F3E27CE22F300928DAF /* CardOnFileDashboardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOnFileDashboardInteractor.swift; sourceTree = "<group>"; };
+		AD0907DA4D41FD95C397B072 /* Pods-MiniSuperApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniSuperApp.debug.xcconfig"; path = "Target Support Files/Pods-MiniSuperApp/Pods-MiniSuperApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DEF3625CA73DB1DB3DBDDF83 /* Pods_MiniSuperApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniSuperApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57EBE512738468700FE9319 /* UIImage+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
 		F57EBE522738468700FE9319 /* Array+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Utils.swift"; sourceTree = "<group>"; };
 		F57EBE532738468700FE9319 /* UITableView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Utils.swift"; sourceTree = "<group>"; };
@@ -93,12 +118,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5829F6E26DB2DE900BFA8CD /* ModernRIBs in Frameworks */,
+				86F05F3527CE1AB600928DAF /* CombineExt in Frameworks */,
+				A0674813785352CBF60E1C46 /* Pods_MiniSuperApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86F05F2A27CE080800928DAF /* SuperPayDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				86F05F2B27CE081A00928DAF /* SuperPayDashboardRouter.swift */,
+				86F05F2C27CE081A00928DAF /* SuperPayDashboardViewController.swift */,
+				86F05F2D27CE081A00928DAF /* SuperPayDashboardBuilder.swift */,
+				86F05F2E27CE081A00928DAF /* SuperPayDashboardInteractor.swift */,
+				86F05F3827CE201C00928DAF /* NumberFormatter.swift */,
+			);
+			path = SuperPayDashboard;
+			sourceTree = "<group>";
+		};
+		86F05F3A27CE22D100928DAF /* CardOnFileDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				86F05F3B27CE22F300928DAF /* CardOnFileDashboardRouter.swift */,
+				86F05F3C27CE22F300928DAF /* CardOnFileDashboardViewController.swift */,
+				86F05F3D27CE22F300928DAF /* CardOnFileDashboardBuilder.swift */,
+				86F05F3E27CE22F300928DAF /* CardOnFileDashboardInteractor.swift */,
+			);
+			path = CardOnFileDashboard;
+			sourceTree = "<group>";
+		};
+		D98A4F017F2E3A77962B2F5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD0907DA4D41FD95C397B072 /* Pods-MiniSuperApp.debug.xcconfig */,
+				58E1106358CEBB29D0EF266E /* Pods-MiniSuperApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB7A2CE4FA78D7F5020D4222 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3625CA73DB1DB3DBDDF83 /* Pods_MiniSuperApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F57F6AD926DB49E500C0117D /* AppHome */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +182,8 @@
 		F57F6ADA26DB49EA00C0117D /* FinanceHome */ = {
 			isa = PBXGroup;
 			children = (
+				86F05F3A27CE22D100928DAF /* CardOnFileDashboard */,
+				86F05F2A27CE080800928DAF /* SuperPayDashboard */,
 				F57F6AE426DB4A2700C0117D /* FinanceHomeRouter.swift */,
 				F57F6AE526DB4A2700C0117D /* FinanceHomeViewController.swift */,
 				F57F6AE626DB4A2700C0117D /* FinanceHomeBuilder.swift */,
@@ -145,6 +214,7 @@
 				F5EAA231270B3A8F00EF2B70 /* UIView+Utils.swift */,
 				F5EAA21F270B39DC00EF2B70 /* PushModalPresentationController.swift */,
 				F5EAA22F270B3A7100EF2B70 /* RIBs+Utils.swift */,
+				86F05F3627CE1AD300928DAF /* Combine+Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -154,8 +224,12 @@
 			children = (
 				F5829F5726DB2BC400BFA8CD /* MiniSuperApp */,
 				F5829F5626DB2BC400BFA8CD /* Products */,
+				D98A4F017F2E3A77962B2F5B /* Pods */,
+				EB7A2CE4FA78D7F5020D4222 /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		F5829F5626DB2BC400BFA8CD /* Products */ = {
 			isa = PBXGroup;
@@ -238,6 +312,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5829F6926DB2BC500BFA8CD /* Build configuration list for PBXNativeTarget "MiniSuperApp" */;
 			buildPhases = (
+				76C243F3AD0B0BD1A92227A0 /* [CP] Check Pods Manifest.lock */,
 				F5829F5126DB2BC400BFA8CD /* Sources */,
 				F5829F5226DB2BC400BFA8CD /* Frameworks */,
 				F5829F5326DB2BC400BFA8CD /* Resources */,
@@ -249,6 +324,7 @@
 			name = MiniSuperApp;
 			packageProductDependencies = (
 				F5829F6D26DB2DE900BFA8CD /* ModernRIBs */,
+				86F05F3427CE1AB600928DAF /* CombineExt */,
 			);
 			productName = SuperRedApp;
 			productReference = F5829F5526DB2BC400BFA8CD /* MiniSuperApp.app */;
@@ -279,6 +355,7 @@
 			mainGroup = F5829F4C26DB2BC400BFA8CD;
 			packageReferences = (
 				F5829F6C26DB2DE900BFA8CD /* XCRemoteSwiftPackageReference "ModernRIBs" */,
+				86F05F3327CE1AB600928DAF /* XCRemoteSwiftPackageReference "CombineExt" */,
 			);
 			productRefGroup = F5829F5626DB2BC400BFA8CD /* Products */;
 			projectDirPath = "";
@@ -301,6 +378,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		76C243F3AD0B0BD1A92227A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniSuperApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F5829F5126DB2BC400BFA8CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -314,6 +416,7 @@
 				F5EAA22E270B3A4500EF2B70 /* SuperPayView.swift in Sources */,
 				F5EAA220270B39DC00EF2B70 /* PushModalPresentationController.swift in Sources */,
 				F57F6AF126DB4A2D00C0117D /* ProfileHomeViewController.swift in Sources */,
+				86F05F4027CE22F300928DAF /* CardOnFileDashboardViewController.swift in Sources */,
 				F57F6AF326DB4A2D00C0117D /* ProfileHomeInteractor.swift in Sources */,
 				F5829F7626DB34AA00BFA8CD /* AppRootBuilder.swift in Sources */,
 				F5EAA230270B3A7100EF2B70 /* RIBs+Utils.swift in Sources */,
@@ -326,19 +429,28 @@
 				F5EAA22C270B3A4500EF2B70 /* TransportHomeInteractor.swift in Sources */,
 				F5829F7726DB34AA00BFA8CD /* AppRootInteractor.swift in Sources */,
 				F5EAA22D270B3A4500EF2B70 /* RideTypeView.swift in Sources */,
+				86F05F3F27CE22F300928DAF /* CardOnFileDashboardRouter.swift in Sources */,
+				86F05F3227CE081A00928DAF /* SuperPayDashboardInteractor.swift in Sources */,
+				86F05F3927CE201C00928DAF /* NumberFormatter.swift in Sources */,
 				F5EAA219270B395900EF2B70 /* HomeWidgetView.swift in Sources */,
 				F57F6AFE26DB4CD700C0117D /* RootTabBarController.swift in Sources */,
+				86F05F3127CE081A00928DAF /* SuperPayDashboardBuilder.swift in Sources */,
 				F57F6AEB26DB4A2700C0117D /* FinanceHomeInteractor.swift in Sources */,
+				86F05F4227CE22F300928DAF /* CardOnFileDashboardInteractor.swift in Sources */,
 				F5EAA21B270B395900EF2B70 /* AppHomeInteractor.swift in Sources */,
+				86F05F3727CE1AD300928DAF /* Combine+Utils.swift in Sources */,
 				F57F6AE826DB4A2700C0117D /* FinanceHomeRouter.swift in Sources */,
 				F57F6AE926DB4A2700C0117D /* FinanceHomeViewController.swift in Sources */,
 				F5829F5926DB2BC400BFA8CD /* AppDelegate.swift in Sources */,
 				F5EAA21C270B395900EF2B70 /* AppHomeViewController.swift in Sources */,
+				86F05F2F27CE081A00928DAF /* SuperPayDashboardRouter.swift in Sources */,
 				F5EAA236270B3AA600EF2B70 /* UIColor+Super.swift in Sources */,
 				F5829F7926DB397300BFA8CD /* AppComponent.swift in Sources */,
 				F57F6AF026DB4A2D00C0117D /* ProfileHomeRouter.swift in Sources */,
+				86F05F3027CE081A00928DAF /* SuperPayDashboardViewController.swift in Sources */,
 				F57EBE562738468700FE9319 /* UITableView+Utils.swift in Sources */,
 				F57EBE552738468700FE9319 /* Array+Utils.swift in Sources */,
+				86F05F4127CE22F300928DAF /* CardOnFileDashboardBuilder.swift in Sources */,
 				F5829F7426DB34AA00BFA8CD /* AppRootRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +587,7 @@
 		};
 		F5829F6A26DB2BC500BFA8CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD0907DA4D41FD95C397B072 /* Pods-MiniSuperApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,6 +606,7 @@
 		};
 		F5829F6B26DB2BC500BFA8CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E1106358CEBB29D0EF266E /* Pods-MiniSuperApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -533,6 +647,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		86F05F3327CE1AB600928DAF /* XCRemoteSwiftPackageReference "CombineExt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineExt";
+			requirement = {
+				kind = exactVersion;
+				version = 1.5.1;
+			};
+		};
 		F5829F6C26DB2DE900BFA8CD /* XCRemoteSwiftPackageReference "ModernRIBs" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/DevYeom/ModernRIBs";
@@ -544,6 +666,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		86F05F3427CE1AB600928DAF /* CombineExt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86F05F3327CE1AB600928DAF /* XCRemoteSwiftPackageReference "CombineExt" */;
+			productName = CombineExt;
+		};
 		F5829F6D26DB2DE900BFA8CD /* ModernRIBs */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F5829F6C26DB2DE900BFA8CD /* XCRemoteSwiftPackageReference "ModernRIBs" */;
