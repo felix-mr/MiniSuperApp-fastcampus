@@ -18,6 +18,7 @@
 		86F05F4027CE22F300928DAF /* CardOnFileDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F05F3C27CE22F300928DAF /* CardOnFileDashboardViewController.swift */; };
 		86F05F4127CE22F300928DAF /* CardOnFileDashboardBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F05F3D27CE22F300928DAF /* CardOnFileDashboardBuilder.swift */; };
 		86F05F4227CE22F300928DAF /* CardOnFileDashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F05F3E27CE22F300928DAF /* CardOnFileDashboardInteractor.swift */; };
+		86F05F4727CFB84D00928DAF /* AddPaymentMethodButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F05F4627CFB84D00928DAF /* AddPaymentMethodButton.swift */; };
 		A0674813785352CBF60E1C46 /* Pods_MiniSuperApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF3625CA73DB1DB3DBDDF83 /* Pods_MiniSuperApp.framework */; };
 		F57EBE542738468700FE9319 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57EBE512738468700FE9319 /* UIImage+Utils.swift */; };
 		F57EBE552738468700FE9319 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57EBE522738468700FE9319 /* Array+Utils.swift */; };
@@ -70,6 +71,7 @@
 		86F05F3C27CE22F300928DAF /* CardOnFileDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOnFileDashboardViewController.swift; sourceTree = "<group>"; };
 		86F05F3D27CE22F300928DAF /* CardOnFileDashboardBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOnFileDashboardBuilder.swift; sourceTree = "<group>"; };
 		86F05F3E27CE22F300928DAF /* CardOnFileDashboardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOnFileDashboardInteractor.swift; sourceTree = "<group>"; };
+		86F05F4627CFB84D00928DAF /* AddPaymentMethodButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentMethodButton.swift; sourceTree = "<group>"; };
 		AD0907DA4D41FD95C397B072 /* Pods-MiniSuperApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniSuperApp.debug.xcconfig"; path = "Target Support Files/Pods-MiniSuperApp/Pods-MiniSuperApp.debug.xcconfig"; sourceTree = "<group>"; };
 		DEF3625CA73DB1DB3DBDDF83 /* Pods_MiniSuperApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniSuperApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57EBE512738468700FE9319 /* UIImage+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
@@ -141,12 +143,21 @@
 		86F05F3A27CE22D100928DAF /* CardOnFileDashboard */ = {
 			isa = PBXGroup;
 			children = (
+				86F05F4527CFB83200928DAF /* Views */,
 				86F05F3B27CE22F300928DAF /* CardOnFileDashboardRouter.swift */,
 				86F05F3C27CE22F300928DAF /* CardOnFileDashboardViewController.swift */,
 				86F05F3D27CE22F300928DAF /* CardOnFileDashboardBuilder.swift */,
 				86F05F3E27CE22F300928DAF /* CardOnFileDashboardInteractor.swift */,
 			);
 			path = CardOnFileDashboard;
+			sourceTree = "<group>";
+		};
+		86F05F4527CFB83200928DAF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86F05F4627CFB84D00928DAF /* AddPaymentMethodButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		D98A4F017F2E3A77962B2F5B /* Pods */ = {
@@ -415,6 +426,7 @@
 				F57F6AEA26DB4A2700C0117D /* FinanceHomeBuilder.swift in Sources */,
 				F5EAA22E270B3A4500EF2B70 /* SuperPayView.swift in Sources */,
 				F5EAA220270B39DC00EF2B70 /* PushModalPresentationController.swift in Sources */,
+				86F05F4727CFB84D00928DAF /* AddPaymentMethodButton.swift in Sources */,
 				F57F6AF126DB4A2D00C0117D /* ProfileHomeViewController.swift in Sources */,
 				86F05F4027CE22F300928DAF /* CardOnFileDashboardViewController.swift in Sources */,
 				F57F6AF326DB4A2D00C0117D /* ProfileHomeInteractor.swift in Sources */,

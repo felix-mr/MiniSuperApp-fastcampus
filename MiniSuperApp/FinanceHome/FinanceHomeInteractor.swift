@@ -31,6 +31,7 @@ final class FinanceHomeInteractor: PresentableInteractor<FinanceHomePresentable>
     super.didBecomeActive()
     
     router?.attachSuperPayDashboard()
+    router?.attachCardOnFileDashboard()
   }
   
   override func willResignActive() {
